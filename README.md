@@ -38,20 +38,63 @@ requirements.txt: Lists all Python dependencies required to run the application 
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/youtube-chatbot.git](https://github.com/your-username/youtube-chatbot.git)
+   git clone(https://github.com/your-username/youtube-chatbot.git)
    cd youtube-chatbot
 
 2. **Set up a virtual environment:**
+  ```bash
     python -m venv myenv
     On Windows: myenv\Scripts\activate
 
 3.**Install dependencies**
+   ```bash
     pip install -r requirements.txt
 
 4.**Configure Environment Variables**:Create a .env file in the root directory and add your key:
+     ```bash
     OPENAI_API_KEY=your_actual_key_here
 
 5.**Running the App**
     using terminal:
+     ```bash
     streamlit run frontend.py
+
+### Future Improvements
+Evaluation & Monitoring
+
+Ragas Integration
+
+LangSmith Tracing
+
+Advanced Retrieval Strategies
+
+Pre-Retrieval Optimization
+
+Query Rewriting
+
+Multi-Query Generation
+
+During-Retrieval Refinement
+
+Maximal Marginal Relevance (MMR)
+
+Hybrid Search
+
+Post-Retrieval Processing
+
+Reranking
+
+Contextual Compression
+
+Augmentation & Generation
+
+Answer Grounding
+
+Context Window Optimization
+
+Indexing Improvements
+
+Semantic Chunking
+
+Hierarchical Indexing
 
