@@ -6,6 +6,13 @@ An RAG-Powered assistant that allows users to chat with any YouTube video. The a
 ## Screenshot
 
 
+<img width="1912" height="942" alt="Screenshot 2026-02-06 103012" src="https://github.com/user-attachments/assets/a29d8159-616e-4acf-affd-812340904e54" />
+
+<img width="440" height="766" alt="Screenshot 2026-02-06 103047" src="https://github.com/user-attachments/assets/f1220f90-6a2f-427c-9e88-9e1e5bf7cfe3" />
+
+<img width="1919" height="838" alt="Screenshot 2026-02-06 103111" src="https://github.com/user-attachments/assets/321b2e2a-babe-42ca-8819-4a56abca08c1" />
+
+
 ##  Features
 - **Auto-Transcript Fetching:** Automatically retrieves captions using `youtube-transcript-api`.
 - **RAG Pipeline:** Built with LangChain, utilizing `RecursiveCharacterTextSplitter` for document chunking.
