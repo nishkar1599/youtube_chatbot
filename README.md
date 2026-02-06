@@ -42,59 +42,68 @@ requirements.txt: Lists all Python dependencies required to run the application 
    cd youtube-chatbot
 
 2. **Set up a virtual environment:**
-  ```bash
+    ```bash
     python -m venv myenv
-    On Windows: myenv\Scripts\activate
+    ##On Windows:
+    myenv\Scripts\activate 
+    
 
-3.**Install dependencies**
-   ```bash
+3. **Install dependencies**
+    ```bash
     pip install -r requirements.txt
+    ```
 
-4.**Configure Environment Variables**:Create a .env file in the root directory and add your key:
-     ```bash
+4. **Configure Environment Variables**:
+Create a .env file in the root directory and add your key:
+
+    ```bash
+    //.env file
     OPENAI_API_KEY=your_actual_key_here
+    ```
 
 5.**Running the App**
     using terminal:
-     ```bash
+
+```bash
     streamlit run frontend.py
+```
 
 ### Future Improvements
 Evaluation & Monitoring
 
-Ragas Integration
+-Ragas Integration
 
-LangSmith Tracing
+-LangSmith Tracing
 
-Advanced Retrieval Strategies
+-Advanced Retrieval Strategies
 
-Pre-Retrieval Optimization
+-Pre-Retrieval Optimization
 
-Query Rewriting
+-Query Rewriting
 
-Multi-Query Generation
+-Multi-Query Generation
 
-During-Retrieval Refinement
+-During-Retrieval Refinement
 
-Maximal Marginal Relevance (MMR)
+-Maximal Marginal Relevance (MMR)
 
-Hybrid Search
+-Hybrid Search
 
-Post-Retrieval Processing
+-Post-Retrieval Processing
 
-Reranking
+-Reranking
 
-Contextual Compression
+-Contextual Compression
 
-Augmentation & Generation
+-Augmentation & Generation
 
-Answer Grounding
+-Answer Grounding
 
-Context Window Optimization
+-Context Window Optimization
 
-Indexing Improvements
+-Indexing Improvements
 
-Semantic Chunking
+-Semantic Chunking
 
-Hierarchical Indexing
+-Hierarchical Indexing
 
